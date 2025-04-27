@@ -1,0 +1,1 @@
+this is a simple website where you upload a folder with varoius content and file types and it will filter out all the files exept the file type you specify you can also convert all the files to a different file type if you want
