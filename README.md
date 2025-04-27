@@ -5,7 +5,6 @@ FilterFiles is a simple web application that allows you to filter files from a f
 ## Table of Contents
 - [Features](#features)
 - [How to Use](#how-to-use)
-- [Screenshots](#screenshots)
 - [Installation](#installation)
 - [Contributing](#contributing)
 - [License](#license)
@@ -28,14 +27,6 @@ FilterFiles is a simple web application that allows you to filter files from a f
 4. **Download the Results**:
    - The processed files will be packaged into a ZIP archive, which you can download.
 
-## Screenshots
-### Main Interface
-![Main Interface](path/to/main-interface-screenshot.png)
-
-### Dark Mode
-![Dark Mode](path/to/dark-mode-screenshot.png)
-
-> **Note**: Replace `path/to/main-interface-screenshot.png` and `path/to/dark-mode-screenshot.png` with the actual paths to your screenshots.
 
 ## Installation
 No installation is required! Simply use the [GitHub Pages site](#) or download the repository and open the `index.html` file in your browser.
