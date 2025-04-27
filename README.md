@@ -1,43 +1,55 @@
-FilterFiles
-FilterFiles is a simple web application that allows you to filter files from a folder based on their file type and optionally convert them to another format. The application is easy to use, and it processes your files directly in the browser without requiring server uploads.
+# FilterFiles
 
-Features
-File Filtering: Upload a folder and filter files by a specified file extension (e.g., .txt, .jpg).
-File Conversion: Convert filtered files to a different file extension of your choice.
-Download as ZIP: Download the filtered and/or converted files as a ZIP archive.
-Dark Mode: Built-in dark mode for better usability and aesthetics.
-Client-Side Processing: All operations are performed on the client side, ensuring privacy and security.
-Technologies Used
-HTML: For structuring the web interface.
-CSS: For styling, including dark mode support.
-JavaScript: For handling file filtering, conversion, and ZIP generation.
-JSZip: A JavaScript library used to create ZIP files.
-How to Use
-Upload a Folder:
+FilterFiles is a simple web application that allows you to filter files from a folder based on their file type and optionally convert them to another format. The application is easy to use and ensures privacy by performing all operations on the client side.
 
-Click the "Input Folder" button and select a folder containing the files you want to process.
-Specify File Extensions:
+## Table of Contents
+- [Features](#features)
+- [How to Use](#how-to-use)
+- [Screenshots](#screenshots)
+- [Installation](#installation)
+- [Contributing](#contributing)
+- [License](#license)
 
-Enter the source file extension (e.g., .txt) to filter files of that type.
-Optionally, enter a target file extension (e.g., .pdf) to convert the filtered files.
-Filter and Convert:
+## Features
+- **File Filtering**: Upload a folder and filter files by a specified file extension (e.g., `.txt`, `.jpg`).
+- **File Conversion**: Convert filtered files to a different file extension of your choice.
+- **Download as ZIP**: Download the filtered and/or converted files as a ZIP archive.
+- **Dark Mode**: Built-in dark mode for better usability and aesthetics.
+- **Client-Side Processing**: All operations are performed on the client side, ensuring privacy and security.
 
-Click the "Filter and Convert Files" button to process your files.
-Download the Results:
+## How to Use
+1. **Upload a Folder**:
+   - Click the "Input Folder" button and select a folder containing the files you want to process.
+2. **Specify File Extensions**:
+   - Enter the source file extension (e.g., `.txt`) to filter files of that type.
+   - Optionally, enter a target file extension (e.g., `.pdf`) to convert the filtered files.
+3. **Filter and Convert**:
+   - Click the "Filter and Convert Files" button to process your files.
+4. **Download the Results**:
+   - The processed files will be packaged into a ZIP archive, which you can download.
 
-The processed files will be packaged into a ZIP archive, which you can download.
-Screenshots
-Main Interface
-Main Interface
+## Screenshots
+### Main Interface
+![Main Interface](path/to/main-interface-screenshot.png)
 
-Dark Mode
-Dark Mode
+### Dark Mode
+![Dark Mode](path/to/dark-mode-screenshot.png)
 
-Installation
+> **Note**: Replace `path/to/main-interface-screenshot.png` and `path/to/dark-mode-screenshot.png` with the actual paths to your screenshots.
 
-No installation is required! Simply use the github pages site or download the repository and open the index.html file in your browser.
+## Installation
+No installation is required! Simply use the [GitHub Pages site](#) or download the repository and open the `index.html` file in your browser.
 
+## Contributing
+Contributions are welcome! If you'd like to improve this project:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch-name`).
+3. Commit your changes (`git commit -m 'Add a feature or fix a bug'`).
+4. Push to the branch (`git push origin feature-branch-name`).
+5. Open a pull request.
 
-Contributing
-Contributions are welcome! If you'd like to improve this project, feel free to submit a pull request or open an issue.
+## License
+This project is licensed under the [MIT License](LICENSE).
 
+## Acknowledgments
+- **[JSZip](https://stuk.github.io/jszip/)**: For enabling ZIP file creation.
