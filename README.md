@@ -29,7 +29,7 @@ FilterFiles is a simple web application that allows you to filter files from a f
 
 
 ## Installation
-No installation is required! Simply use the [GitHub Pages site](#) or download the repository and open the `index.html` file in your browser.
+No installation is required! Simply use the [GitHub Pages site](https://penguin186.github.io/filterfiles/) or download the repository and open the `index.html` file in your browser.
 
 ## Contributing
 Contributions are welcome! If you'd like to improve this project:
