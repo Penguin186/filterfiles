@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter and Convert Files</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="theme-switch-container">
+        <input type="checkbox" class="theme-checkbox" id="theme-switch" aria-label="Toggle dark mode" checked>
+    </div>
+    <header>
+        <h1>Filter and Convert Files</h1>
+    </header>
+
+    <main>
+        <form id="file-filter-form">
+            <label for="input-folder">Click To Input Folder</label>
+            <input type="file" id="input-folder" webkitdirectory directory multiple aria-label="Select input folder" style="display: none;"><br><br>
+
+            <label for="file-extension">Source File Extension e.g. txt. jpg.</label>
+            <input type="text" id="file-extension" placeholder="Enter source file extension" aria-label="Enter source file extension"><br><br>
+
+            <label for="target-extension">Target File Extension (optional) e.g. pdf. png.</label>
+            <input type="text" id="target-extension" placeholder="Enter target file extension" aria-label="Enter target file extension"><br><br>
+
+            <button type="button" onclick="filterAndConvertFiles()" aria-label="Filter and convert files">Filter and Convert Files</button>
+        </form>
+
+
+<section id="result"></section>
+    </main>
+
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script>
+        document.body.classList.add('dark-mode'); // Apply dark mode by default
+        document.getElementById('theme-switch').addEventListener('change', function () {
+            document.body.classList.toggle('dark-mode', this.checked);
+        });
+    </script>
+</body>
+<br><br><br>
+<div class="loader">
+    <div class="justify-content-center jimu-primary-loading"></div>
+</div>
+</html>
